@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Nekat.CleanIn.Activity.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/materialCardView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#F6502E">
+    </ImageView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profil"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile"/>
+
+    <TextView
+        android:id="@+id/tv_editprofil"
+        android:layout_below="@id/profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Edit Profil"
+        android:textSize="16sp"
+        android:textColor="#0057FF"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yohanes Andreas"
+        android:layout_marginTop="24dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_editprofil"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/et_nohp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="081271715280"
+        android:layout_marginTop="24dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:layout_below="@+id/et_nama"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/et_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:layout_marginTop="24dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:layout_below="@+id/et_nohp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_updateprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Update"
+        android:backgroundTint="#E9E9E9"
+        android:textColor="@color/black"
+        android:layout_below="@id/et_alamat"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+</RelativeLayout>
