@@ -92,11 +92,13 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, OrderListActivity.class);
                     intent.putExtra("id_paket", 1);
                     startActivity(intent);
+                    finish();
 
                 } else {
                     Intent intent = new Intent(MainActivity.this, OrderActivity.class);
                     intent.putExtra("id_paket", 1);
                     startActivity(intent);
+                    finish();
                 }
 
             }
@@ -108,11 +110,13 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, OrderListActivity.class);
                     intent.putExtra("id_paket", 2);
                     startActivity(intent);
+                    finish();
 
                 } else {
                     Intent intent = new Intent(MainActivity.this, OrderActivity.class);
                     intent.putExtra("id_paket", 2);
                     startActivity(intent);
+                    finish();
                 }
 
             }
@@ -124,11 +128,13 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, OrderListActivity.class);
                     intent.putExtra("id_paket", 3);
                     startActivity(intent);
+                    finish();
 
                 } else {
                     Intent intent = new Intent(MainActivity.this, OrderActivity.class);
                     intent.putExtra("id_paket", 3);
                     startActivity(intent);
+                    finish();
                 }
             }
         });

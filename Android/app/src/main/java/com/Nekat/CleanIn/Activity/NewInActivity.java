@@ -2,6 +2,7 @@ package com.Nekat.CleanIn.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -85,6 +86,8 @@ public class NewInActivity extends AppCompatActivity {
                     public void onResponse(Call<APIJson<Order>> call, Response<APIJson<Order>> response) {
                         if (response.isSuccessful()){
                             Toast.makeText(NewInActivity.this,"Berhasil", Toast.LENGTH_SHORT);
+                            Intent intent = new Intent(NewInActivity.this, MainActivity.class);
+                            startActivity(intent);
                             finish();
                         } else {
                             Toast.makeText(NewInActivity.this,"Gagal", Toast.LENGTH_SHORT);
