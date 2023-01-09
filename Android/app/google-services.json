@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "853563972736",
+    "project_id": "clean-in-e5ea1",
+    "storage_bucket": "clean-in-e5ea1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853563972736:android:0b90b121287f4669eb5a65",
+        "android_client_info": {
+          "package_name": "com.Nekat.CleanIn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853563972736-q2d4fb4nt9sina88on07rnh1alp54peu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjj37ZV6DdPV6aBwmgyvalHKJlhcGMSyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853563972736-q2d4fb4nt9sina88on07rnh1alp54peu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
